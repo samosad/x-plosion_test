@@ -21,8 +21,8 @@
         <header>
           <div class="row">
             <div class="col-md-4">
-              <h1 class="text-muted">X-PLOSION</h1>
-              <h6>soda that pops, flavors that explode</h6>
+              <h1 class="accent">X-PLOSION</h1>
+              <h6 class="heading">SODA THAT POPS, FLAVORS THAT EXPLODE</h6>
             </div>
             <div class="col-md-4">
               <img src="images/x-plosion_home_03.png" class="banner">
@@ -32,9 +32,9 @@
                 <div class="controls">
                   <form class="navbar-form navbar-right">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Search X-Plosion">
+                      <input type="text" class="form-control input-search" placeholder="Search X-Plosion">
                     </div>
-                    <button type="submit" class="btn btn-default">SEARCH</button>
+                    <button type="submit" class="btn btn-default btn-search">SEARCH</button>
                   </form>
                   <div class="clearfix"></div>
                 </div>
@@ -64,26 +64,79 @@
         </ul>
       </div>
       <div class="row">
-        <div class="col-md-8">
-          <h1>X-PLOSION</h1>
-          <h2>SODA FOR SUPERHEROES!</h2>
-          <p class="lead" style>Try a healthy alternative to the current artificial drinks - your mind, body and tongue will thank you!</p>
+        <div class="col-md-8 col-left">
+          <aside class="aside big-image">
+            <img src="images/bottle-big.png" class="pull-right">
+          </aside>
+          <h1 class="accent">X-PLOSION</h1>
+          <h2 class="heading">SODA FOR SUPERHEROES!</h2>
+          <p class="lead accent">Try a healthy alternative to the current artificial drinks - your mind, body and tongue will thank you!</p>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
-          <img src="images/illustration.png" class="pull-right">
-          <div class="jumbotron">
-            <h1>SLIDER</h1>
-            <p></p>
+          
+          <div class="clearfix"></div>
+
+          <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="#"><img src="images/slide1.png" alt="..."></a>
+                  </div>
+                  <div class="col-xs-3">
+                    <a href="#"><img src="images/slide2.png" alt="..."></a>
+                  </div>
+                  <div class="col-xs-3">
+                    <a href="#"><img src="images/slide3.png" alt="..."></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="#"><img src="images/slide2.png" alt="..."></a>
+                  </div>
+                  <div class="col-xs-3">
+                    <a href="#"><img src="images/slide3.png" alt="..."></a>
+                  </div>
+                  <div class="col-xs-3">
+                    <a href="#"><img src="images/slide1.png" alt="..."></a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <a href="#"><img src="images/slide3.png" alt="..."></a>
+                  </div>
+                  <div class="col-xs-3">
+                    <a href="#"><img src="images/slide1.png" alt="..."></a>
+                  </div>
+                  <div class="col-xs-3">
+                    <a href="#"><img src="images/slide2.png" alt="..."></a>
+                  </div>
+                </div>  
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-slider" data-slide="prev">
+            </a>
+            <a class="right carousel-control" href="#carousel-slider" data-slide="next">
+            </a>
           </div>
         </div>
-        <div class="col-md-4">
+
+
+        <div class="col-md-4 col-right">
           <div class="panel panel-default">
             <div class="panel-heading">FOLLOW US
             </div>
             <div class="panel-body">
               <div class="btn-group">
-                <a class="btn btn-primary"><i class="fa fa-facebook-square"></i>&nbsp;Facebook</a>
-                <a class="btn btn-info"><i class="fa fa-twitter-square"></i>&nbsp;Twitter</a>
-                <a class="btn btn-danger"><i class="fa fa-google-plus-square"></i>&nbsp;Google+</a>
+                <a class="btn btn-primary"><i class="fa fa-lg fa-facebook-square"></i>&nbsp;Facebook</a>
+                <a class="btn btn-info"><i class="fa fa-lg fa-twitter-square"></i>&nbsp;Twitter</a>
+                <a class="btn btn-danger"><i class="fa fa-lg fa-google-plus-square"></i>&nbsp;Google+</a>
               </div>
             </div>
           </div>
@@ -91,12 +144,12 @@
             <div class="panel-heading">RANDOMLY SELECTED
             </div>
             <div class="panel-body">
-              <ul>
-                <li>X-Plosion is a hit in Japan</li>
-                <li>3 new flavors added</li>
-                <li>Check our new promo at Youtube</li>
-                <li>We say NO to artificial flavours</li>
-                <li>X-Plosion and your health</li>
+              <ul class="fa-ul">
+                <li><i class="fa-li fa-caret-right"></i>X-Plosion is a hit in Japan</li>
+                <li><i class="fa-li fa-caret-right"></i>3 new flavors added</li>
+                <li><i class="fa-li fa-caret-right"></i>Check our new promo at Youtube</li>
+                <li><i class="fa-li fa-caret-right"></i>We say NO to artificial flavours</li>
+                <li><i class="fa-li fa-caret-right"></i>X-Plosion and your health</li>
               </ul>
             </div>
           </div>
@@ -107,9 +160,8 @@
               <b>X-Plosion Ltd</b><br>
               9 Danbury Road<br>
               Wilton<br>
-              CT 06897<br></div>
-            <div></div>
-            <div></div>
+              CT 06897<br>
+            </div>
           </div>
         </div>
       </div>
