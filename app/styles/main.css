@@ -3446,7 +3446,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   width: 100%;
   background-color: #eee;
   border-radius: 15px;
-  background-image: url("/images/nav-bg.png");
+  background-image: url("../images/nav-bg.png");
   background-repeat: repeat-x;
   background-position: top;
   border-bottom: 0;
@@ -7312,7 +7312,7 @@ td.visible-print {
 body {
   padding-top: 20px;
   background-color: #eae2d7;
-  background-image: url("/images/header-bg.png");
+  background-image: url("../images/header-bg.png");
   background-repeat: repeat-x;
   background-position: top;
   color: #6e5e46;
@@ -7383,7 +7383,7 @@ p.lead {
 .nav-justified {
   background-color: #eee;
   border-radius: 15px;
-  background-image: url("/images/nav-bg.png");
+  background-image: url("../images/nav-bg.png");
   background-repeat: repeat-x;
   background-position: top;
 }
@@ -7465,7 +7465,7 @@ p.lead {
   opacity: 1;
 }
 .carousel a.left.carousel-control {
-  background-image: url("/images/carousel-control-left.png");
+  background-image: url("../images/carousel-control-left.png");
   background-repeat: no-repeat;
   border-radius: 15px;
   width: 40px;
@@ -7473,7 +7473,7 @@ p.lead {
   margin-left: -20px;
 }
 .carousel a.right.carousel-control {
-  background-image: url("/images/carousel-control-right.png");
+  background-image: url("../images/carousel-control-right.png");
   background-repeat: no-repeat;
   border-radius: 15px;
   width: 40px;
