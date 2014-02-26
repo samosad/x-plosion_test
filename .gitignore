@@ -24,3 +24,5 @@ Thumbs.db
 node_modules
 .tmp
 app/bower_components
+
+app/styles/main.css.map
